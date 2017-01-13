@@ -1,0 +1,52 @@
+[rotation]
+description=WW-Garbanzo-WW-SC 
+years=5
+sowing:count=4
+[sowing:1]
+event_synchronization=relative_date
+event_date=0000293 
+enabled=true
+checked=true
+description=crop:wheat_winter-low.crp | management:wheat_winter-low.mgt 
+NRCS_field_op=
+crop=..\..\Crop\wheat_winter-low.crp
+management=..\..\Management\CT_wheat_winter-low-cookfarm-151013.mgt
+seeding_rate=300.00000000 Seed application rate
+emergence_rate=100.00000000 Emergence rate
+sowing_depth=5.00000000 Sowing depth
+[sowing:2]
+event_synchronization=relative_date
+event_date=0002098
+enabled=true
+checked=true
+description=crop:garbanzo.crp | management:garbanzo.mgt 
+NRCS_field_op=
+crop=..\..\Crop\garbanzo.crp
+management=..\..\Management\garbanzo_151013.mgt
+seeding_rate=300.00000000 Seed application rate
+emergence_rate=100.00000000 Emergence rate
+sowing_depth=5.00000000 Sowing depth
+[sowing:3]
+event_synchronization=relative_date
+event_date=0002293 
+enabled=true
+checked=true
+description=crop:wheat - winter.crp | management:wheat - winter - HI.mgt 
+NRCS_field_op=
+crop=..\..\Crop\wheat_winter-low.crp
+management=..\..\Management\CT_wheat_winter-low-cookfarm-151013.mgt
+seeding_rate=300.00000000 Seed application rate
+emergence_rate=100.00000000 Emergence rate
+sowing_depth=5.00000000 Sowing depth
+[sowing:4]
+event_synchronization=relative_date
+event_date=0004084
+enabled=true
+checked=true
+description=crop:spring_canola.crp | management:spring_canola.mgt 
+NRCS_field_op=
+crop=..\..\Crop\spring_canola.crp
+management=..\..\Management\spring_canola.mgt
+seeding_rate=300.00000000 Seed application rate
+emergence_rate=100.00000000 Emergence rate
+sowing_depth=5.00000000 Sowing depth

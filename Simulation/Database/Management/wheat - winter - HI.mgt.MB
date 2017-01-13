@@ -1,0 +1,15 @@
+#[Fertilization] #Event Year DOY Amount(kg/ha) NO3 NH4 Source Form Method
+#[Irrigation] #Event Year DOY Amount(mm) NO3 (kg/ha)
+#[Manure] Label Year DOY Fresh_Mass(kg/ha) Method
+#[Tillage] 1:Lable 2:Year 3:DOY 4:Surface_Residue_Fraction_Remainning_Soil_Surface 5:Fraction_Standing_Residue_To_Soil_Surface 6:Depth_Soil_Disturbance(m) 7:Method 8:Soil_Mixing_Fraction 9:Tillage_Soil_Disturbance_Rating
+#[Harvest] Standing_Stubble_Mass_Fraction_of_Unharvested_Biomass Surface_Residue_Mass_Fraction_of_Unharvested_Biomass
+[Fertilization] 
+2012 269 0 25.27214129 75.81642386 1 2 2
+[Fertilization] 
+2013 84 0 11.2 33.6 1 2 1
+[Manure]
+Manure1 6000 283 250 1
+[Tillage]
+Fertilizer_Cultivator 2012 282 0.5 0.99 0.1 3 0.4 15
+[Harvest]
+0.7 0.3

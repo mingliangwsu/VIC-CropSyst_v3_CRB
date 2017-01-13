@@ -1,0 +1,9 @@
+#cropcode cropname
+0 NOCROP
+204 corn_grain-irrigated
+218 wheat - winter
+218 wheat - winter_LelandVBA
+218 wheat - spring
+218 wheat_winter-irrigated
+299 garbanzo
+1827 potato-irrigated

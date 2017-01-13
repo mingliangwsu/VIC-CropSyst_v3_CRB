@@ -1,0 +1,16 @@
+[rotation]
+description=Winter Wheat - Spring fallow.  Reduced till management for low precipitation similar to Lind, WA
+years=2
+sowing:count=1
+[sowing:1]
+event_synchronization=relative_date
+event_date=0000244 (Sep 1)
+enabled=true
+checked=true
+description=Winter wheat- Sowing date was come from Dr. Stockle email at Thursday, July 26, 2012 
+NRCS_field_op=
+crop=/home/stocklelab/Projects/REACCH/Simulation/Database/Crop/wheat_winter-low.crp
+management=/home/stocklelab/Projects/REACCH/Simulation/Database/Management/RT_wheat_winter-low.mgt
+seeding_rate=300.0000000000 Seed application rate
+emergence_rate=100.0000000000 Emergence rate
+sowing_depth=5.0000000000 Sowing depth
