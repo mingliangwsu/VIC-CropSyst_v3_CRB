@@ -119,7 +119,7 @@ FROZEN_SOIL		FALSE	# TRUE = calculate frozen soils
 #			FORCE_TYPE	PREC
 #######################################################################
 #FORCING1		/home/liuming/projects/BioEarth/VIC-CropSyst/Simulation/Database/Weather/UI_historical/data_ 
-FORCING1		/data/liumingdata/Projects/BioEarth/VIC-CropSyst/Simulation/Database/Weather/VIC_livneh_UI_hist/data_ 
+FORCING1		~/Projects/BioEarth/VIC-CropSyst/Simulation/Database/Weather/data_ 
 FORCE_FORMAT	ASCII		# BINARY or ASCII
 FORCE_ENDIAN	LITTLE		# LITTLE (PC\Linux) or BIG (SUN)
 N_TYPES			4			# Number of variables (columns)
@@ -140,20 +140,20 @@ ALMA_INPUT		FALSE					# TRUE = ALMA-compliant input variable units; FALSE = stan
 #######################################################################
 # Land Surface Files and Parameters
 #######################################################################
-SOIL				/data/liumingdata/Projects/BioEarth/VIC-CropSyst/Simulation/Database/Soil/soil_param_id_323071_with_soc.txt   #newsoil_with_soc.txt   # Soil parameter path\file
+SOIL				~/Projects/BioEarth/VIC-CropSyst/Simulation/Database/Soil/soil_param_id_323071_with_soc.txt   #newsoil_with_soc.txt   # Soil parameter path\file
 ARC_SOIL			FALSE   					# TRUE = read soil parameters from ARC\INFO ASCII grids
 #SOIL_DIR			(soil param directory)   	# Directory containing ARC\INFO ASCII grids of soil parameters - only valid if ARC_SOIL is TRUE
 BASEFLOW			ARNO						# ARNO = columns 5-8 are the standard VIC baseflow parameters; NIJSSEN2001 = columns 5-8 of soil file are baseflow parameters from Nijssen et al (2001)
 JULY_TAVG_SUPPLIED	TRUE						# TRUE = final column of the soil parameter file will contain average July air temperature, for computing treeline; this will be ignored if COMPUTE_TREELINE is FALSE; FALSE = compute the treeline based on the average July air temperature of the forcings over the simulation period
 ORGANIC_FRACT		TRUE						# TRUE = simulate organic soils; soil param file contains 3*Nlayer extra columns, listing for each layer the organic fraction, and the bulk density and soil particle density of the organic matter in the soil layer; FALSE = soil param file does not contain any information about organic soil, and organic fraction should be assumed to be 0
-VEGLIB				/data/liumingdata/Projects/BioEarth/VIC-CropSyst/Simulation/Database/Library/veglib_LAI_added2016_with_crp.txt	# Veg library path\file
-VEGPARAM			/data/liumingdata/Projects/BioEarth/VIC-CropSyst/Simulation/Database/Veg/vic_vegparamegter_id_323071.txt	# Veg parameter path\file
-IRRIGPARAM			/data/liumingdata/Projects/BioEarth/VIC-CropSyst/Simulation/Database/Management/irrigation_parameter.txt	# irrigation parameter path\file
-CROPCODELIB         /data/liumingdata/Projects/BioEarth/VIC-CropSyst/Simulation/Database/Library/cropcodelib.txt
+VEGLIB				~/Projects/BioEarth/VIC-CropSyst/Simulation/Database/Library/veglib_LAI_added2016_with_crp.txt	# Veg library path\file
+VEGPARAM			~/Projects/BioEarth/VIC-CropSyst/Simulation/Database/Veg/vic_vegparamegter_id_323071.txt	# Veg parameter path\file
+IRRIGPARAM			~/Projects/BioEarth/VIC-CropSyst/Simulation/Database/Management/irrigation_parameter.txt	# irrigation parameter path\file
+CROPCODELIB         ~/Projects/BioEarth/VIC-CropSyst/Simulation/Database/Library/cropcodelib.txt
 ROOT_ZONES			3							# Number of root zones (must match format of veg param file)
 VEGPARAM_LAI 		FALSE    					# TRUE = veg param file contains LAI information; FALSE = veg param file does NOT contain LAI information
 LAI_SRC 			LAI_FROM_VEGLIB    			# LAI_FROM_VEGPARAM = read LAI from veg param file; LAI_FROM_VEGLIB = read LAI from veg library file
-SNOW_BAND			5	/data/liumingdata/Projects/BioEarth/VIC-CropSyst/Simulation/Database/Snow/snowbands.0625.PNW.052108.id_sorted.txt	# Number of snow bands; if number of snow bands > 1, you must insert the snow band path\file after the number of bands (e.g. SNOW_BAND 5 my_path\my_snow_band_file)
+SNOW_BAND			5	~/Projects/BioEarth/VIC-CropSyst/Simulation/Database/Snow/snowbands.0625.PNW.052108.id_sorted.txt	# Number of snow bands; if number of snow bands > 1, you must insert the snow band path\file after the number of bands (e.g. SNOW_BAND 5 my_path\my_snow_band_file)
 
 #######################################################################
 # Crop related files for running the crop model
@@ -161,13 +161,13 @@ SNOW_BAND			5	/data/liumingdata/Projects/BioEarth/VIC-CropSyst/Simulation/Databa
 #NCROPSINLIB				15 					#Total number of crops in the crops library
 CO2_PPM					370 				#CO2 concentration in ppm. Current climate- 370 ppm and future climate- 437 ppm (2030s B1) and 461 (2030s A1B). 437 #CO2 concentration in ppm. Current climate- 370 ppm and future climate- 437 ppm (2030s B1) and 461 (2030s A1B). 
 CO2_TRANSIENT			FALSE 				#FALSE=constant Co2 ---TRUE=CO2 changes each year
-CO2_FILE				/data/liumingdata/Projects/BioEarth/VIC-CropSyst/Simulation/Database/CO2/CO2_concentration.txt #input for transient CO2
+CO2_FILE				~/Projects/BioEarth/VIC-CropSyst/Simulation/Database/CO2/CO2_concentration.txt #input for transient CO2
 CLAY_INPUT              TRUE                #150630LML
 #CROPPARAM				C:\temp\debug_VIC_CropSyst\Scenarios\20150413\cropparam_2cells_V3.txt  #Unused for VIC-CropSyst V3
 #CROPLIB					C:\temp\debug_VIC_CropSyst\From_Kevan\yakima\croplib_allcrops_MAD_added
-CROP_SPECIFIC_PARAM_DIR	/data/liumingdata/Projects/BioEarth/VIC-CropSyst/Simulation/Database/Crop
+CROP_SPECIFIC_PARAM_DIR	~/Projects/BioEarth/VIC-CropSyst/Simulation/Database/Crop
 #IRRIG_PATTERN 			\home\keyvan\project\data\Yakima\irrig_pattern #Curretly unused for VIC-CropSyst V3
-CROPSYST_WORKING_DIR 	/data/liumingdata/Projects/BioEarth/VIC-CropSyst/Simulation/ #CropSyst working directory
+CROPSYST_WORKING_DIR 	~/Projects/BioEarth/VIC-CropSyst/Simulation/ #CropSyst working directory
 
 #######################################################################
 # Lake Simulation Parameters
@@ -181,8 +181,8 @@ CROPSYST_WORKING_DIR 	/data/liumingdata/Projects/BioEarth/VIC-CropSyst/Simulatio
 #######################################################################
 # Output Files and Parameters
 #######################################################################
-RESULT_DIR			/data/liumingdata/Projects/BioEarth/VIC-CropSyst/Simulation/Scenarios/Liu_Aeolus/VIC_output # Results directory path (w\o trailing "\")		
-#RESULT_DIR_CROP		/home/liuming/projects/BioEarth/VIC-CropSyst/Simulation/Scenarios/Liu_Linux/CropSyst_output	# Directory for CropSyst outputs LML 141103
+RESULT_DIR			~/Projects/BioEarth/VIC-CropSyst/Simulation/Scenarios/General/VIC_output # Results directory path (w\o trailing "\")		
+RESULT_CROP_OUTPUT_FILE_NAME vic_crop_daily.csv
 OUT_STEP			0				# Output interval (hours); if 0, OUT_STEP = TIME_STEP
 SKIPYEAR 			0				# Number of years of output to omit from the output files
 COMPRESS			FALSE			# TRUE = compress input and output files when done
