@@ -1,0 +1,219 @@
+[crop]
+description=Tea (Camellia sinensis)
+details_URL=http://en.wikipedia.org/wiki/Tea
+wikipedia=http://en.wikipedia.org/wiki/Tea
+feed_name_immature=
+feed_name_midmature=
+feed_name_mature=
+model=crop
+harvested_part=leaf
+C_species=C3
+life_cycle=annual
+senesced_biomass_fate=shed
+tea=true
+land_use=ROW_CROPS
+season_dormancy_mode=single
+class=TEA
+vernalization=0
+photoperiod=0
+N_fixation=0
+can_fixate_N=0
+perennial=1
+stages=NOCROP PREPLANTING PREEMERGENCE ACTIVE_GROWTH FLOWERING GRAIN_FILLING MATURITY DORMANTHARVESTABLE HARVESTED 
+planting_date_mode=FIXED_DATE
+deg_day_base_temp=5.00000 Base temperature
+deg_day_cutoff_temp=25.00000 Cutoff temperature
+planting_avg_temp=0.00000 5 day mean temperature required for planting
+planting_min_PAW=0.5  Minimum required plant available water of layer 2
+deg_day_emerge=100 Emergence
+deg_day_leaf_duration=30000 Leaf duration (deg-days)
+deg_day_begin_flower=1000 Begin flowering
+deg_day_peak_LAI=10040 Peak LAI
+deg_day_tuber_initiation=1000
+deg_day_begin_grain_filling=1020 Begin grain filling
+deg_day_begin_maturity=2050 Physiological maturity
+deg_day_temp_limit_ceases=32000 Thermal time to cease temperature limitation
+max_root_depth=1.80000 Maximum rooting depth
+max_water_uptake=14.00000 Maximum water uptake
+max_LAI=5.00000 Maximum leaf area index (LAI)
+fract_LAI_mature=0.80000 Fraction of max. LAI at physiological maturity
+specific_leaf_area=22.00000 Specific leaf area
+stem_leaf_partition=4.00000 Stem/leaf partition
+leaf_duration_sensitivity_stress=2.00000 Leaf duration sensitivity to water stress
+ET_crop_coef=1.20000 ET crop coefficient at full canopy
+biomass_water_ratio=4.50000 Above ground biomass-transpiration coefficient
+light_to_biomass=0.00300 Light to above ground biomass conversion
+at_pt_limit=0.80000 At/Pt ratio limit to leaf area growth
+at_pt_root_limit=0.50000 At/Pt ratio limit to root growth
+opt_temp_for_growth=20.00000 Temperature below which growth rate is reduced
+induce_dormancy_temp=10.00000 Average temperature for 7 consecutive days to induce dormancy
+start_dormancy_valid_date=1 (01/01)
+leave_dormancy_valid_date=365 (12/30)
+critical_leaf_water_pot=-1300.00000 Critical leaf water potential
+wilt_leaf_water_pot=-2000.00000 Wilting leaf water potential
+phenologic_sensitivity_water_stress=0.00000 Phenologic sensitivity to water stress
+kc=0.50000 Extinction coefficient for solar radiation
+decomposition_time=60 Decomposition time constant
+residue_area_mass=5.00000 Area to mass ratio of residue cover
+straw_to_residue=0.60000 Fraction of straw remaining after harvest
+old_harvest_ndx_unstressed=0.48000 Unstressed index
+old_harvest_ndx_flowering_sensitivity=0.10000 Sensitivity to water stress during flowering
+old_harvest_ndx_xfilling_sensitivity=0.05000 Sensitivity to water stress during filling
+old_harvest_ndx_tuber_init_sensitivity=0.00000 Sensitivity to water stress during tuber initiation
+old_harvest_ndx_tuber_growth_sensitivity=0.00000 Sensitivity to water stress during tuber growth
+translocation_factor=0.30000 Translocation factor
+vernalization_low_temp=0.00000 Low temp. for opt. vern.
+vernalization_high_temp=10.00000 High temp. for opt. vern.
+vernalization_start=0.00000 Day requirement to start
+vernalization_end=50.00000 Day requirement to complete
+vernalization_min_factor=0.00000 Min. vernalization factor
+photoperiod_start=0.00000 Day length (photo-period) to inhibit flowering
+photoperiod_end=0.00000 Day length (photo-period) for insensitivity
+adjust_N_uptake=1.00000 Nitrogen uptake adjustment
+adjust_N_availability=1.00000 Nitrogen availability adjustment
+residual_N=1.00000 Amount of residual nitrogen per soil layer
+N_max_concentration_emerge=0.05000 Maximum N concentration during early growth
+N_min_concentration_mature=0.00700 Minimum N concentration at maturity
+N_max_concentration_mature=0.01500 Maximum N concentration at maturity
+min_N_concentration_harvest=0.03000 Maximum N concentration at harvest
+max_N_stubble=0.00700 Maximum N content of standing stubble
+osmotic_pot_50=0.00000 Osmotic potential for 50% yield
+salt_tolerance_P=0.00000 Osmotic potential Van-Genuchten salinity tolerance exp
+growth_ratio_elevated_to_350ppm_CO2=1.25000 Ratio of growth at elevated reference and 350 ppm atmospheric CO2 concentration
+elevated_reference_CO2_conc=660.00000 Elevated reference atmospheric CO2 concentration
+freezing_temp_kills=  -2.00000 øC Freezing temperature that kills crop
+planting_depth=   0.02000
+[version]
+major=4
+release=11
+minor=0
+[GUI]
+top=379
+left=115
+width=694
+height=481
+activepageindex=1
+active_control=tea_checkbox
+[options]
+advanced=false
+[emergence]
+model=thermal_time
+a=22.3500003815 a slope? for hydrothermal time constant curve Emperical constant
+b=129.6600036621 b intercept? for hydrothermal time constant curve Emperical constant
+seedling_leaf_area=2.0000000000 Leaf area of seedling on first day of emergence
+germination_base_temperature=-1.0000000000 Germination base temperature
+mean_base_soil_water_pot=-1000.0000000000 Mean base soil water potential for 50% emergence
+stdev_base_soil_water_pot=100.0000000000 Std deviation base soil water potential ?for 50% emergence?
+[growth]
+TUE_at_1pKa_VPD=5.0000000000 Transpiration Use Efficiency when VPD is at 1kPa
+RUE_max=2.0000000000 Maximum Radiation Use Efficiency (unstressed)
+use_TDG_deprecated=true
+biomass_transpiration_coef=4.5000000000 Above ground biomass-transpiration coefficient annual
+use_RUE_deprecated=true
+light_to_biomass=0.0030000000 Unstressed light to above ground biomass conversion (Radiation use efficiency)
+light_to_biomass_units=kg/MJ
+light_to_biomass_units_shown=kg/MJ
+at_pt_limit=0.8000000119 Act. to pot. transpiration ratio that limits leaf area growth
+at_pt_root_limit=0.5000000000 Act. to pot. transpiration ratio that limits root growth
+opt_temp_for_growth=20.0000000000 Optimum mean daily temperature for growth
+[transpiration]
+kc=0.5000000000 Extinction coefficient for solar radiation
+ET_crop_coef=1.2000000477 Evapotranspiration crop coefficient at full canopy
+max_water_uptake=14.0000000000 Maximum water uptake
+stomatal_closure_leaf_water_pot=-1300.0000000000 Leaf water potential at the onset of stomatal closure
+wilt_leaf_water_pot=-2000.0000000000 Wilting leaf water potential
+[leaf]
+max_LAI=5.0000000000 Maximum expected leaf area index (LAI)
+fract_LAI_mature=0.8000000119 Fraction of max. LAI at physiological maturity
+initial_GAI=0.0109999999 Initial green leaf area index
+regrowth_GAI=0.0109999999 Min. green leaf area index for regrowth (perennial and/or clipped annuals)
+specific_leaf_area=22.0000000000 Specific leaf area at optimum temperature
+stem_leaf_partition=4.0000000000 Stem/leaf partition coefficient
+duration=30000.0000000000 Leaf area duration
+duration_stress_sensitivity=2.0000000000 Leaf area duration sensitivity to water stress
+clip_newest=true
+senesces=true
+[phenology]
+emergence=100 Emergence
+flowering=1000 Begin flowering
+peak_LAI=10040 End of vegetative growth
+max_root_depth=1040 Maximum root depth
+filling=1020 Begin filling
+maturity=2050.0000000000 Physiological maturity
+maturity_significant=true
+base_temp=5.0000000000 Base temperature
+cutoff_temp=25.0000000000 Cutoff temperature
+optimal_temp=22.0000000000 Optimal temperature
+maximum_temp=35.0000000000 Maximum temperature
+water_stress_sensitivity=0.0000000000 Adjustment factor for phenologic response to stress
+resolution=daily
+clipping_resets=false
+[morphology]
+max_canopy_height=1.5000000000 Maximum plant height
+[root]
+root_sensitivity_water_stress=0.0000000000 Root sensitivity to water stress
+max_root_depth=1.7999999523 Maximum rooting depth
+surface_root_density=3.0000000000 Maximum surface root density at full rooting depth
+root_density_distribution_curvature=0.1000000015 Curvature of root density distribution
+root_length_per_unit_mass=90.0000000000 Root length per unit root mass
+[inactive_period]
+consider_inactive_days=7 at end or restart of growth activity
+inducement_temperature=10.0000000000 Average temperature over these consecutive days below which inactivity is induced
+start_valid_date=365 (12/30)
+end_valid_date=365 (12/30)
+[dormancy]
+senesce=100.0000000000 Biomass that senesces at the on sent of dormancy
+[residue]
+RUSLE2_type=unknown
+decomposition_time=60 Time to reach 63% decomposition
+decomposition_time_50=40 Time to reach 50% decomposition
+fast_cycling_top_fraction=0.5000000000 Fast cycling top fraction
+slow_cycling_top_fraction=0.4000000060 Slow cycling top fraction
+lignified_top_fraction=0.1000000015 Lignified top fraction
+fast_cycling_root_fraction=0.5000000000 Fast cycling root_fraction
+slow_cycling_root_fraction=0.3000000119 Slow cycling root_fraction
+lignified_root_fraction=0.2000000030 Lignified root_fraction
+fast_cycling_decomposition_time_50=3.5000000000 Fast cycling time to 50%
+slow_cycling_decomposition_time_50=9.9899997711 Slow cycling time to 50%
+lignified_decomposition_time_50=115.0699996948 Lignified biomass time to 50%
+carbon_fraction=0.4600000083 Top and root carbon fraction
+stubble_area_covered_to_mass_ratio=2.0000000000 Stubble area covered to mass ratio
+area_covered_to_mass_ratio=5.0000000000 Surface residue area covered to mass ratio (flattened)
+[harvest_index]
+unstressed=0.4799999893 Unstressed harvest index
+translocation_factor=0.3000000119 Translocation to yield factor
+growth_sensitivity=0.0000000000 Sensitivity to wanter and nitrogen stress during active growth
+[vernalization]
+enabled=false
+low_temp=0.0000000000 Low temperature for optimal vernalization
+high_temp=10.0000000000 High temperature for optimal vernalization
+start=0.0000000000 Day requirement to start
+end=50.0000000000 Day requirement to complete
+min_factor=0.0000000000 Minimum vernalization factor
+[photoperiod]
+enabled=false
+start=0.0000000000 to inhibit flowering Day length (photo-period)
+end=0.0000000000 for insensitivity Day length (photo-period)
+[nitrogen]
+fixation=false
+legume_fraction=1.0000000000
+max_uptake_daily_rate=6.0000000000 Maximum uptake during rapid linear growth
+stubble_max_conc=0.0070000002 Maximum N concentration of chaff and stubble
+root_conc=0.0070000002 Standard root N concentration
+demand_adjust=1.0000000000 Nitrogen demand adjustment
+PAW_where_N_uptake_rate_decreases=0.5000000000 Plant available water at which N uptake starts decreasing
+residual_N_not_available_for_uptake=1.0000000000 Residual N not available for uptake
+soil_N_conc_where_N_uptake_decreases=5.0000000000 Soil N concentration at which N uptake starts decreasing
+nitrogen_leaf_stress_mode=none
+[salinity]
+osmotic_pot_50=0.0000000000 Soil solution osmotic potential for 50% yield reduction
+tolerance_P=0.0000000000 Salinity tolerance exponent (Van-Genuchten) 
+[CO2]
+growth_ratio_elevated_to_baseline_ppm=1.2500000000 Ratio of growth at elevated reference ppm to baseline ppm atmospheric CO2 concentration
+elevated_reference_conc=660.0000000000 Elevated reference atmospheric CO2 concentration
+baseline_reference_conc=350.0000000000 Baseline reference atmospheric CO2 concentration
+[hardiness]
+enabled=false
+salvageable_days_before_maturity=0 Number of days before maturity to salvage yield
+damage_cold_temp=-5.0000000000 Cold temperature which begins to damage crop
+lethal_cold_temp=-10.0000000000 Cold temperature which is lethal to crop

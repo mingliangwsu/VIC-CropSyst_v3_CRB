@@ -1,0 +1,1 @@
+Date	Growth stage	Accum deg day	canopy biomass	root biomass	GAI	Pot transp	Act transp	

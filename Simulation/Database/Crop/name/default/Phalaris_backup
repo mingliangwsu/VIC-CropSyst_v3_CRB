@@ -1,0 +1,12 @@
+[crop]
+description=Phalaris grass (Phalaris ssp.)
+details_URL=http://en.wikipedia.org/wiki/Phalaris_%28grass%29
+wikipedia=http://en.wikipedia.org/wiki/Phalaris_%28grass%29
+C_species=C3
+life_cycle=annual
+model=crop
+[growth]
+TUE_at_1pKa_VPD=4.5
+RUE_max=1.6
+use_TDG_deprecated=true
+use_RUE_deprecated=true

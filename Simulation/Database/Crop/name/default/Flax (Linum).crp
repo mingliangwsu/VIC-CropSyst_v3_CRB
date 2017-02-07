@@ -1,0 +1,13 @@
+[crop]
+description=Flax (Linum)
+details_URL=http://en.wikipedia.org/wiki/Flax
+wikipedia=http://en.wikipedia.org/wiki/Flax
+EOL=http://www.eol.org/taxa/16150162
+C_species=C3
+life_cycle=annual
+model=crop
+[growth]
+TUE_at_1pKa_VPD=4.8
+RUE_max=1.7
+use_TDG_deprecated=true
+use_RUE_deprecated=true

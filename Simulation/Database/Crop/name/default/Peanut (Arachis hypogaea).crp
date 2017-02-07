@@ -1,0 +1,13 @@
+[crop]
+description=Peanut (Arachis hypogaea)
+details_URL=http://en.wikipedia.org/wiki/Peanut
+wikipedia=http://en.wikipedia.org/wiki/Peanut
+EOL=http://www.eol.org/taxa/16434827
+C_species=C3
+life_cycle=annual
+model=crop
+[growth]
+TUE_at_1pKa_VPD=5.3
+RUE_max=1.2
+use_TDG_deprecated=true
+use_RUE_deprecated=true

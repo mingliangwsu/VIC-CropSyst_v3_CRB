@@ -1,0 +1,12 @@
+[crop]
+description=Orchard grass (Dactylis glomerata)
+details_URL=http://en.wikipedia.org/wiki/Orchard_grass
+wikipedia=http://en.wikipedia.org/wiki/Orchard_grass
+C_species=C3
+life_cycle=annual
+model=crop
+[growth]
+TUE_at_1pKa_VPD=3.1
+RUE_max=1.1
+use_TDG_deprecated=true
+use_RUE_deprecated=true

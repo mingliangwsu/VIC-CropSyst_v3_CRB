@@ -1,0 +1,14 @@
+[crop]
+description=Garlic (Allium sativum)
+details_URL=http://en.wikipedia.org/wiki/Garlic
+wikipedia=http://en.wikipedia.org/wiki/Garlic
+EOL=http:http://www.eol.org/taxa/16825452
+C_species=C3
+life_cycle=annual
+model=crop
+[growth]
+TUE_at_1pKa_VPD=7.9
+RUE_max=1.8
+use_TDG_deprecated=true
+use_RUE_deprecated=true
+early_growth_limit_temp=8.0000000000 Optimum mean daily temperature for growth
