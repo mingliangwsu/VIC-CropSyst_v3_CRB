@@ -181,7 +181,7 @@ CROPSYST_WORKING_DIR 	/home/liuming/Projects/BioEarth/VIC-CropSyst/Simulation/ #
 #######################################################################
 # Output Files and Parameters
 #######################################################################
-RESULT_DIR			/home/liuming/Projects/BioEarth/VIC-CropSyst/Simulation/Scenarios/Liu_Linux_315604_rot_2002/VIC_output # Results directory path (w\o trailing "\")		
+RESULT_DIR			/home/liuming/Projects/BioEarth/VIC-CropSyst/Simulation/Scenarios/Calibration/VIC_output # Results directory path (w\o trailing "\")		
 RESULT_CROP_OUTPUT_FILE_NAME vic_crop_daily.csv   
 OUT_STEP			0				# Output interval (hours); if 0, OUT_STEP = TIME_STEP
 SKIPYEAR 			0				# Number of years of output to omit from the output files
