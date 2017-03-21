@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ -z $1 ]; then
+   echo add the name of the weather scenario.  I.e.: install historical
+else
+   echo Downloading $1
+   rsync -arv --exclude='*.nc' --exclude='*.cdl' --include='exported/' --include='*.UED'  rnelson@134.121.204.188:/home/stocklelab/Projects/REACCH2/Simulation/Database/Weather/Scenarios/$1/ $1
+   find $1 -type d -empty -delete
+fi

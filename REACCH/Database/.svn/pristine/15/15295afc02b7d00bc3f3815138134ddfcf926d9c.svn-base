@@ -1,0 +1,31 @@
+[rotation]
+description=Summer Fallow - Winter wheat - Spring wheat.  Reduced tillage management for intermediate precipitation similar to St John, WA
+years=3
+sowing:count=2
+[version]
+major=4
+
+[sowing:1]
+ID=RT_SF-WW-SW-1
+event_synchronization=relative_date
+event_date=0258 (0/9/15 (relative date))
+enabled=true
+description=Winter wheat- Sowing date was come from Dr. Stockle email at Thursday, July 26, 2012
+crop=../Crop/wheat_winter-intermediate.crp
+management=../Management/RT_wheat_winter-intermediate.mgt
+
+[sowing:2]
+ID=RT_SF-WW-SW-2
+event_synchronization=relative_date
+event_date=2060 (2/3/1 (relative date))
+enabled=true
+description=Spring wheat- Sowing date was come from http://variety.wsu.edu/2011/HS/2011_HS_StJohn.PDF
+crop=../Crop/wheat_spring-intermediate.crp
+management=../Management/RT_wheat_spring-intermediate.mgt
+mode=min_temp_req
+delay_after_precip=0 Number of days to delay
+expected_days_to_emerge=0 Typical number of days for emergence
+avg_temp=8.00000000 5 day mean temperature required for sowing
+min_PAW=0.00000000 in layer 2 is greater than Sow only when plant available water
+max_PAW=1.00000000 in layer 1 is less than Sow only when plant available water
+appreciable_precip=200.00000000 Significant precipitation amount
