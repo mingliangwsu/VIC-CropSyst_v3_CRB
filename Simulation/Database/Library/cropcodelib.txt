@@ -13,4 +13,5 @@
 299 garbanzo
 1825 pea_spring-high
 1827 potato-irrigated
+1832 sugarbeet (Beta vulgaris)
 2002 winegrape
