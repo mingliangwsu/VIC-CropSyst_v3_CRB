@@ -1,0 +1,6 @@
+Setup CS_suite_paths
+Setup simulation 
+app init
+bind to WE form
+WE run
+WE end

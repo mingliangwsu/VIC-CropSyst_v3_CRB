@@ -1,0 +1,12 @@
+[crop]
+description=Ryegrass (Lolium)
+details_URL=http://en.wikipedia.org/wiki/Ryegrass
+wikipedia=http://en.wikipedia.org/wiki/Ryegrass
+C_species=C3
+life_cycle=annual
+model=crop
+[growth]
+TUE_at_1pKa_VPD=4.5
+RUE_max=1.6
+use_TDG_deprecated=true
+use_RUE_deprecated=true

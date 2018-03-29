@@ -1,0 +1,14 @@
+[crop]
+description=Cotton (Gossypium)
+details_URL=http://en.wikipedia.org/wiki/Gossypium
+wikipedia=http://en.wikipedia.org/wiki/Gossypium
+EOL=http://www.eol.org/taxa/16153603
+C_species=C3
+life_cycle=annual
+model=crop
+[growth]
+TUE_at_1pKa_VPD=4.2
+RUE_max=1.5
+use_TDG_deprecated=true
+use_RUE_deprecated=true
+early_growth_limit_temp=8.0000000000 Optimum mean daily temperature for growth

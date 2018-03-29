@@ -1,0 +1,13 @@
+[crop]
+description=Switchgrass (Panicum virgatum)  Perennial grass
+details_URL=http://en.wikipedia.org/wiki/Switchgrass
+wikipedia=http://en.wikipedia.org/wiki/Switchgrass
+EOL=
+C_species=C4
+life_cycle=annual
+model=crop
+[growth]
+TUE_at_1pKa_VPD=8.1
+RUE_max=2.2
+use_TDG_deprecated=true
+use_RUE_deprecated=true
